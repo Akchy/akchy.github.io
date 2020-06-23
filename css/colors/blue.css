@@ -1,8 +1,8 @@
 /* Blue Version CSS */
 
-a:link, a:visited, a:hover, a:focus{text-decoration: none; color: #00cfef;}
+#blue a:link, a:visited, a:hover, a:focus{text-decoration: none; color: #00cfef;}
 
-#pink a:link, a:visited, a:hover, a:focus{text-decoration: none; color: #21A618;}
+#green a:link, a:visited, a:hover, a:focus{text-decoration: none; color: #21A618;}
 
 #pink a:link, a:visited, a:hover, a:focus{text-decoration: none; color: #FF1493;}
 
@@ -78,17 +78,19 @@ a:link, a:visited, a:hover, a:focus{text-decoration: none; color: #00cfef;}
 /*  End Loader*/
 
 /* Titles & Color */
-.section-title h1 span{
-	background-color: #00cdef;
-}
-
-.section-title.pink h1 span{
+.pink .section-title h1 span{
 	background-color: #FF1493;
 }
 
-.section-title.green h1 span{
+.green .section-title h1 span{
 	background-color: #21A618;
 }
+
+.blue .section-title h1 span{
+	background-color: #00cfef;
+}
+
+
 
 
 .btn {
@@ -256,38 +258,21 @@ cite {
 /* End Facts */
 
 /* Team Member */
-.team-member-holder:hover {
-	border-color: #00cfef; 
-}
-.team-member-holder:hover.pink {
-	border-color: #FF1493; 
+
+#team .team-member-holder:hover {
+	border-color: #21A618; 
 }
 
 
-.img-overlay {
-	background: #00cfef;
-}
-
-.img-overlay.pink {
-	background: #FF1493;
-}
-
-.img-overlay.green {
+#team .img-overlay {
 	background: #21A618;
 }
 
-.view-profile {
-	color:#00cfef;
+#team .view-profile {
+	color:#21A618;
 }
 
 
-.view-profile.pink {
-	color:#FF1493;
-}
-
-.team-member-social-list-item {
-	color: #00cfef;
-}
 
 .team-details h3{
 	color: #00cdef;
@@ -301,15 +286,24 @@ cite {
 /* End Skills */
 
 /* Works */
-#filters li span.active,#filters li span:hover {
-	background: #00cfef;
+#works #filters li span.active,#filters li span:hover {
+	background: #21A618;
 }
 
-#filters li span {
-	border: 1px solid #00cfef;
-	color: #00cfef;
+#works #filters li span.active, #filters li span:hover{
+	color: #fff;
 }
 
+#works #filters li span {
+	border: 1px solid #21A618;
+	color: #21A618;
+}
+/*
+#works #filters li span  {
+	border: 1px solid #21A618;
+	color: #21A618;
+}
+*/
 .project-details h3 {
 	color: #00cfef; 
 }
@@ -378,8 +372,17 @@ span.price {
 /* End Clients */
 
 /* News */
-.post-date {
-    background-color: #00cfef;
+.pink .post-date {
+	background-color: #FF1493;
+	opacity: .7;
+}
+
+.green .post-date {
+    background-color: #21A618;
+}
+
+.blue .post-date {
+    background-color: #00cdef;
 }
 
 .entry-title a:hover {
