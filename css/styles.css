@@ -267,14 +267,6 @@ textarea {
     line-height: inherit;
 }
 
-.icon {
-    background: url('../assets/img/flutter.png');
-    height: 20px;
-    width: 20px;
-    display: block;
-    /* Other styles here */
-}
-
 button,
 input {
     overflow: visible;
