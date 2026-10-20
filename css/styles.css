@@ -177,10 +177,7 @@ h3 { color: var(--ink); margin: 0; }
     flex: none;
     object-fit: cover;
     border-radius: 50%;
-    filter: grayscale(1) contrast(1.05);
-    transition: filter 0.4s;
 }
-.photo:hover { filter: none; }
 
 h1 { font: 600 clamp(2rem, 6vw, 2.75rem)/1.1 var(--sans); letter-spacing: -0.02em; }
 
